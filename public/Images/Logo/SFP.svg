@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="124.774 117.496 228.55 194.921" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.442039, 0, 0, -0.442039, 32.380219, 422.624555)" style="">
+    <g transform="translate(209.0171 469.796)">
+      <path d="M 0 0 L 220.48 220.48 L 262.314 178.645 L 194.26 110.591 L 194.69 110.162 L 84.529 0 L 220.48 -135.95 L 356.43 0 L 273.832 82.598 L 316.096 124.863 L 440.959 0 L 220.479 -220.479 Z" style="fill: rgb(45, 94, 178); fill-rule: evenodd; fill-opacity: 1;"/>
+    </g>
+    <g transform="translate(323.1311 465.5696)">
+      <path d="M 0 0 L 201.461 201.461 L 402.921 0 L 201.461 -201.46 L 181.655 -181.655 L 201.378 -161.931 L 201.461 -162.014 L 363.474 0 L 201.461 162.014 L 39.447 0 L 118.423 -78.976 L 98.7 -98.7 Z" style="fill: rgb(255, 200, 69); fill-rule: evenodd; fill-opacity: 1;"/>
+    </g>
+  </g>
+</svg>
