@@ -1,3 +1,4 @@
+import Footer from "@/components/Common/Footer";
 import Reviews from "@/components/Common/Reviews";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -36,6 +37,7 @@ const Product = () => {
       <section>
         <Reviews />
       </section>
+      <Footer />
     </>
   );
 };

@@ -4,8 +4,8 @@ const Reviews = () => {
   return (
     <>
       <section>
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 col-start px-60 py-8">
-          <div className="lg:border-r-2 md:border-b-2 border-b-2 border-gray-300 flex flex-col items-center space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 col-start lg:px-40 lg:py-8 px-8 py-3 md:px-8 md:py-4">
+          <div className="lg:border-r-2  border-gray-300 flex flex-col items-center space-y-4">
             <p className="text-gray-800 text-md  max-w-[260px] font-medium">
               "I received great customer service from the specialists who helped
               me. I would recommend to anyone who wants great dashboard that has
@@ -27,7 +27,7 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className="lg:border-r-2 md:border-b-2 border-b-2 border-gray-300 flex flex-col items-center space-y-4">
+          <div className="lg:border-r-2  border-gray-300 flex flex-col items-center space-y-4">
             <p className="text-gray-800 text-md  max-w-[260px] font-medium">
               "I received great customer service from the specialists who helped
               me. I would recommend to anyone who wants great dashboard that has
@@ -49,7 +49,7 @@ const Reviews = () => {
               </div>
             </div>
           </div>
-          <div className=" lg:border-r-2 md:border-b-2 border-b-2 text-gray-800 flex flex-col items-center space-y-4">
+          <div className=" lg:border-r-2  text-gray-800 flex flex-col items-center space-y-4">
             <p className="text-md  max-w-[260px] font-medium">
               "I received great customer service from the specialists who helped
               me. I would recommend to anyone who wants great dashboard that has

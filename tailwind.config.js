@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         Orange: "#FF6846",
         LightOrange: "#FFDEA7",
+        LightBlue: "#C0EEF5",
       },
       lineHeight: {
         loose: "1.2",
