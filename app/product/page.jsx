@@ -29,13 +29,94 @@ const Product = () => {
       <section className="flex lg:mt-20 mt-8 justify-center items-center lg:ml-60 md:ml-40 ml-20">
         <Image
           src="/Images/Product/1.png"
-          alt="Landing1"
+          alt="Product1"
           width="1423"
           height="671"
         />
       </section>
-      <section>
+      <section className="mt-20">
         <Reviews />
+      </section>
+      <section className="flex mt-40 justify-center items-center">
+        <div className="flex flex-col items-center justify-center  ">
+          <h1 className="text-2xl md:text-5xl lg:text-7xl text-center lg:leading-loose">
+            Keep your work
+            <span className="flex">
+              bundled <span className="bg-LightBlue ml-4">together.</span>
+            </span>
+          </h1>
+          <p className=" lg:py-6 text-gray-500 text-xs md:text-sm lg:text-xl text-center">
+            We believe in autonomous teams that own their
+            <span className="flex items-center justify-center">
+              work and their piece of workspace.
+            </span>
+          </p>
+        </div>
+      </section>
+      <section className="flex lg:mt-10 mt-8 justify-center items-center lg:ml-10 md:ml-10 ml-5">
+        <Image
+          src="/Images/Product/2.png"
+          alt="Product2"
+          height="680"
+          width="1132"
+        />
+      </section>
+      <section className="flex lg:mt-10 mt-10 justify-center items-center lg:ml-10 md:ml-10 ml-5">
+        <div className="grid grid-cols-2 gap-12 ">
+          <div>
+            <Image
+              src="/Images/Product/3.png"
+              alt="Product3"
+              height="484"
+              width="538"
+            />
+            <h1 className="text-xl font-bold ">Dedicated Succes Manager </h1>
+            <p className="text-gray-500">
+              Your own customer success manager to help onboard
+              <span className="flex">
+                large team and create custom workflows.
+              </span>
+            </p>
+          </div>
+          <div>
+            <Image
+              src="/Images/Product/4.png"
+              alt="Product3"
+              height="484"
+              width="538"
+            />
+            <h1 className="text-xl font-bold ">Dedicated Succes Manager </h1>
+            <p className="text-gray-500">
+              Your own customer success manager to help onboard
+              <span className="flex">
+                large team and create custom workflows.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="flex lg:mt-40 mt-10 ml-12">
+        <div className="grid grid-cols-2 px-40 py-20 gap-1">
+          <div className="col-span-1">
+            <h1 className="flex flex-col text-7xl ">
+              A Plan to
+              <span className="flex items-start justify-start  ">
+                success at scale
+              </span>
+            </h1>
+          </div>
+          <div>
+            <p className="col-span-1 mt-20 px-20 text-gray-500">
+              Oval can help your team collaborate easily.
+              <span className="flex ">
+                So you will have more control and more support
+              </span>
+              <span className="flex ">
+                to run your company to work with your team.
+              </span>
+            </p>
+          </div>
+        </div>
       </section>
       <Footer />
     </>

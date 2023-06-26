@@ -69,9 +69,7 @@ const landing = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          height="120"
-          width="120"
-          className="lg:mr-8"
+          className=" h-10 w-10 md:h-20 md:w-20 lg:h-32 lg:w-32 lg:mr-8"
         >
           <g>
             <path fill="none" d="M0 0h24v24H0z" />
@@ -82,7 +80,7 @@ const landing = () => {
           </g>
         </svg>
         <div>
-          <h1 className="text-2xl md:text-5xl lg:text-7xl text-center lg:leading-loose mt-2 ">
+          <h1 className="text-2xl md:text-3xl lg:text-7xl text-center lg:leading-loose mt-2 ">
             Loved by so many people
             <span className="flex">around the world.</span>
           </h1>
@@ -100,7 +98,7 @@ const landing = () => {
                   <span className="bg-LightOrange absolute lg:top-20 top-8 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">10 years</span>
                 </span>
-                <span className="flex text-sm  font-normal mx-32 my-4 text-gray-500">
+                <span className="flex text-sm font-normal lg:mx-32 lg:my-4 text-gray-500">
                   In business
                 </span>
               </div>
@@ -144,21 +142,25 @@ const landing = () => {
           </div>
         </div>
       </section>
-      <section>
-        <Image
-          src="/Images/Landing/Utils/1.png"
-          alt="LandingUtil1"
-          height="358"
-          width="196"
-        />
+      <section className="grid grid-cols-4">
+        <div className="col-span-1">
+          <Image
+            src="/Images/Landing/Utils/1.png"
+            alt="LandingUtil1"
+            height="358"
+            width="196"
+          />
+        </div>
+        <div className="col-span-3 mt-60 ml-4">
+          <h1 className=" text-2xl md:text-5xl lg:text-7xl lg:leading-loose whitespace-nowrap">
+            Ovals Plans and Pricing
+          </h1>
+          <p className="mx-20 lg:py-6 text-gray-500 text-xs md:text-sm lg:text-xl">
+            30-day free trial, cancel anytime. No credit card required.
+          </p>
+        </div>
       </section>
       <section>
-        <h1 className="text-2xl md:text-5xl lg:text-7xl text-center lg:leading-loose">
-          Ovals Plans and Pricing
-        </h1>
-        <p className="text-center lg:py-6 text-gray-500 text-xs md:text-sm lg:text-xl">
-          30-day free trial, cancel anytime. No credit card required.
-        </p>
         <div className="flex  text-center items-center justify-center mt-4 text-lg">
           <div>
             <span className="text-orange-500">save 13%</span>
@@ -168,7 +170,7 @@ const landing = () => {
           <label htmlFor="toggle" className="relative ml-4">
             <input type="checkbox" id="toggle" className="hidden" />
             <svg
-              className="toggle-button"
+              className="toggle-button "
               viewBox="0 0 24 12"
               width="89"
               height="47"
@@ -187,6 +189,7 @@ const landing = () => {
           <span className="text-gray-500 ml-4 text-lg">Monthly Plans</span>
         </div>
       </section>
+
       <PaymentPlans />
       <Footer />
     </>
