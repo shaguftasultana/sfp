@@ -65,11 +65,11 @@ const landing = () => {
           </p>
         </div>
       </section>
-      <section className="flex justify-start lg:ml-40 ">
+      <section className="mt-40 flex justify-start lg:ml-40 md:ml-10 ml-4 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
-          className=" h-10 w-10 md:h-20 md:w-20 lg:h-32 lg:w-32 lg:mr-8"
+          className=" h-10 w-10 md:h-20 md:w-20 lg:h-32 lg:w-32 lg:mr-8 md:mr-4 mr-2"
         >
           <g>
             <path fill="none" d="M0 0h24v24H0z" />
@@ -80,61 +80,61 @@ const landing = () => {
           </g>
         </svg>
         <div>
-          <h1 className="text-2xl md:text-3xl lg:text-7xl text-center lg:leading-loose mt-2 ">
+          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose mt-2 whitespace-nowrap">
             Loved by so many people
             <span className="flex">around the world.</span>
           </h1>
         </div>
       </section>
-      <section className="lg:mt-8">
+      <section className="lg:mt-40">
         <Reviews />
       </section>
-      <section className="flex  items-center justify-center mt-20 mx-20">
-        <div className="grid grid-cols-2 gap-40">
+      <section className="flex  items-center justify-center  lg:mx-20 ">
+        <div className="grid grid-cols-2 lg:gap-40 md:gap-2 gap-2 ">
           <div className="col-span-1">
-            <div className="grid grid-rows-3 gap-2">
-              <div className=" lg:text-8xl sm:text-6xl text-2xl font-medium  mt-16 mx-20  ">
-                <span className="inline-block relative">
-                  <span className="bg-LightOrange absolute lg:top-20 top-8 left-0 lg:h-6 h-1 w-full"></span>
+            <div className="grid grid-rows-3 lg:gap-2">
+              <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
+                <span className="inline-block relative ">
+                  <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">10 years</span>
                 </span>
-                <span className="flex text-sm font-normal lg:mx-32 lg:my-4 text-gray-500">
+                <span className="flex lg:text-sm md:text-sm text-xs font-normal lg:mx-32 lg:my-4 mx-6 text-gray-500">
                   In business
                 </span>
               </div>
-              <div className=" text-8xl font-medium mx-20 ">
-                <span className="inline-block relative mt-20">
-                  <span className="bg-LightOrange absolute top-20 left-0 h-6 w-full"></span>
+              <div className="lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 lg:mx-20  whitespace-nowrap ">
+                <span className="inline-block relative lg:mt-20 md:mt-12 mt-12">
+                  <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">1,092</span>
                 </span>
-                <span className="flex text-sm  font-normal mx-16 my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-normal lg:mx-12 lg:my-4 text-gray-500">
                   Partner Company
                 </span>
               </div>
             </div>
           </div>
           <div className="col-span-1">
-            <div className="grid grid-rows-3 gap-2">
-              <div className="text-gray-500 mt-10 text-lg">
+            <div className="grid grid-rows-3 lg:gap-2">
+              <div className="text-gray-500 lg:mt-10 md:mt-6 mt-6 lg:text-2xl md:text-sm text-xs">
                 Businesses all over the world
                 <span className="flex">trust Oval to Build their own</span>
                 <span className="flex">workflow</span>
               </div>
-              <div className=" text-8xl font-medium ">
+              <div className="lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 lg:mx-20  whitespace-nowrap">
                 <span className="inline-block relative">
-                  <span className="bg-LightOrange absolute top-20 left-0 h-6 w-full"></span>
+                  <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">75,000+</span>
                 </span>
-                <span className="flex text-sm  font-normal mx-32 my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-normal mx-12 lg:mx-32 lg:my-4 text-gray-500">
                   Customers
                 </span>
               </div>
-              <div className=" text-8xl font-medium  ">
-                <span className="inline-block relative mt-10">
-                  <span className="bg-LightOrange absolute top-20 left-0 h-6 w-full"></span>
+              <div className="lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 lg:mx-20  whitespace-nowrap ">
+                <span className="inline-block relative lg:mt-10 md:mt-6 mt-6">
+                  <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">39+</span>
                 </span>
-                <span className="flex text-sm  font-normal mx-10 my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-normal mx-2 lg:mx-10 lg:my-4 text-gray-500">
                   Branch office
                 </span>
               </div>
@@ -142,7 +142,7 @@ const landing = () => {
           </div>
         </div>
       </section>
-      <section className="grid grid-cols-4">
+      <section className="grid grid-cols-4 ">
         <div className="col-span-1">
           <Image
             src="/Images/Landing/Utils/1.png"
@@ -151,17 +151,20 @@ const landing = () => {
             width="196"
           />
         </div>
-        <div className="col-span-3 mt-60 ml-4">
+        <div className="col-span-3 lg:mt-60 md:mt-80 mt-40 lg:ml-6 ">
           <h1 className=" text-2xl md:text-5xl lg:text-7xl lg:leading-loose whitespace-nowrap">
             Ovals Plans and Pricing
           </h1>
-          <p className="mx-20 lg:py-6 text-gray-500 text-xs md:text-sm lg:text-xl">
-            30-day free trial, cancel anytime. No credit card required.
+          <p className="lg:mx-60 lg:py-6 md:mx-40 text-gray-500 text-xs md:text-sm lg:text-xl  whitespace-nowrap mx-8">
+            30-day free trial, cancel anytime.
+            <span className="lg:no-flex md:no-flex flex md:ml-2 lg:ml-0 ml-2">
+              No credit card required.
+            </span>
           </p>
         </div>
       </section>
       <section>
-        <div className="flex  text-center items-center justify-center mt-4 text-lg">
+        <div className=" sm:ml-10 flex  text-center items-center justify-center lg:mt-4 lg:text-lg md:text-sm text-xs">
           <div>
             <span className="text-orange-500">save 13%</span>
             <span className="text-gray-500 flex ">Annual plans</span>
@@ -170,7 +173,7 @@ const landing = () => {
           <label htmlFor="toggle" className="relative ml-4">
             <input type="checkbox" id="toggle" className="hidden" />
             <svg
-              className="toggle-button "
+              className="toggle-button lg:h-32 lg:w-32 md:h-20 md:w-20 h-10 w-10  "
               viewBox="0 0 24 12"
               width="89"
               height="47"
@@ -186,7 +189,9 @@ const landing = () => {
               />
             </svg>
           </label>
-          <span className="text-gray-500 ml-4 text-lg">Monthly Plans</span>
+          <span className="text-gray-500 ml-4 lg:text-lg md:text-sm text-xs">
+            Monthly Plans
+          </span>
         </div>
       </section>
 
