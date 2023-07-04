@@ -120,7 +120,7 @@ const Product = () => {
       </section>
       <section>
         <div className="flex flex-wrap justify-center">
-          <div className="w-full lg:w-1/2 px-4">
+          <div className="w-full lg:w-1/2 px-6">
             <div className="flex flex-col h-full justify-between">
               <div className="mb-8">
                 <svg
@@ -143,10 +143,6 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 1</h3>
-                <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
               </div>
               <div className="mb-8">
                 <svg
@@ -169,9 +165,14 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 2</h3>
+                <h3 className="text-lg font-bold mt-2">
+                  Dedicated succes manager
+                </h3>
                 <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Your own customer success manager to help onboard
+                  <span className="flex">
+                    large team and create custom workflows.
+                  </span>
                 </p>
               </div>
               <div>
@@ -195,14 +196,19 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 3</h3>
+                <h3 className="text-lg font-bold mt-2">
+                  Dedicated succes manager
+                </h3>
                 <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Your own customer success manager to help onboard
+                  <span className="flex">
+                    large team and create custom workflows.
+                  </span>
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 px-4">
+          <div className="w-full lg:w-1/2 px-6">
             <div className="flex flex-col h-full justify-between">
               <div className="mb-8">
                 <svg
@@ -225,9 +231,14 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 4</h3>
+                <h3 className="text-lg font-bold mt-2">
+                  Dedicated succes manager
+                </h3>
                 <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Your own customer success manager to help onboard
+                  <span className="flex">
+                    large team and create custom workflows.
+                  </span>
                 </p>
               </div>
               <div className="mb-8">
@@ -251,9 +262,14 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 5</h3>
+                <h3 className="text-lg font-bold mt-2">
+                  Dedicated succes manager
+                </h3>
                 <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Your own customer success manager to help onboard
+                  <span className="flex">
+                    large team and create custom workflows.
+                  </span>
                 </p>
               </div>
               <div>
@@ -277,9 +293,14 @@ const Product = () => {
                     ></path>
                   </svg>
                 </svg>
-                <h3 className="text-lg font-bold mt-2">Heading 6</h3>
+                <h3 className="text-lg font-bold mt-2">
+                  Dedicated succes manager
+                </h3>
                 <p className="text-gray-500 mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Your own customer success manager to help onboard
+                  <span className="flex">
+                    large team and create custom workflows.
+                  </span>
                 </p>
               </div>
             </div>

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
-import Build from "@/components/Common/Build";
 import Reviews from "@/components/Common/Reviews";
 import PaymentPlans from "@/components/Common/PaymentPlan";
 import Footer from "@/components/Common/Footer";
+import Switcher1 from "@/components/Common/Switcher1";
 const landing = () => {
   return (
     <>
@@ -50,7 +50,7 @@ const landing = () => {
           </p>
         </div>
       </section>
-      <Build />
+      <Switcher1 />
       <section className="flex mt-40 justify-center items-center">
         <div className="flex flex-col items-center justify-center  ">
           <h1 className="text-2xl md:text-5xl lg:text-7xl text-center lg:leading-loose">
@@ -65,7 +65,7 @@ const landing = () => {
           </p>
         </div>
       </section>
-      <section className="mt-40 flex justify-start lg:ml-40 md:ml-10 ml-4 ">
+      <section className="mt-10 flex flex-row  justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -82,14 +82,14 @@ const landing = () => {
         <div>
           <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose mt-2 whitespace-nowrap">
             Loved by so many people
-            <span className="flex">around the world.</span>
+            <span className="flex flex-row">around the world.</span>
           </h1>
         </div>
       </section>
-      <section className="lg:mt-40">
+      <section className="lg:mt-20">
         <Reviews />
       </section>
-      <section className="flex  items-center justify-center  lg:mx-20 ">
+      <section className="flex mt-10 items-center justify-center  lg:mx-20 ">
         <div className="grid grid-cols-2 lg:gap-40 md:gap-2 gap-2 ">
           <div className="col-span-1">
             <div className="grid grid-rows-3 lg:gap-2">
@@ -142,7 +142,7 @@ const landing = () => {
           </div>
         </div>
       </section>
-      <section className="grid grid-cols-4 ">
+      <section className="grid grid-cols-4 flex flex-col justify-center">
         <div className="col-span-1">
           <Image
             src="/Images/Landing/Utils/1.png"
