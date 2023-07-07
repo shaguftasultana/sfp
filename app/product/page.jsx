@@ -80,8 +80,8 @@ const Product = () => {
           </div>
           <div>
             <Image
-              src="/Images/Product/4.png"
-              alt="Product3"
+              src="/Images/Product/p4.png"
+              alt="Product4"
               height="484"
               width="538"
             />

@@ -1,9 +1,10 @@
-import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Reviews from "@/components/Common/Reviews";
 import PaymentPlans from "@/components/Common/PaymentPlan";
 import Footer from "@/components/Common/Footer";
 import Switcher1 from "@/components/Common/Switcher1";
+import Image from "next/image";
+import Switcher2 from "@/components/Common/Switcher2";
 const landing = () => {
   return (
     <>
@@ -65,7 +66,9 @@ const landing = () => {
           </p>
         </div>
       </section>
-      <section className="mt-10 flex flex-row  justify-center items-center">
+      <Switcher2 />
+      <Switcher1 />
+      <section className="lg:mt-40 flex flex-row  justify-center items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -80,7 +83,7 @@ const landing = () => {
           </g>
         </svg>
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose mt-2 whitespace-nowrap">
+          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose lg:mt-20 whitespace-nowrap">
             Loved by so many people
             <span className="flex flex-row">around the world.</span>
           </h1>
@@ -90,7 +93,7 @@ const landing = () => {
         <Reviews />
       </section>
       <section className="flex mt-10 items-center justify-center  lg:mx-20 ">
-        <div className="grid grid-cols-2 lg:gap-40 md:gap-2 gap-2 ">
+        <div className="grid grid-cols-2 lg:gap-40 md:gap-40 gap-2 ">
           <div className="col-span-1">
             <div className="grid grid-rows-3 lg:gap-2">
               <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
