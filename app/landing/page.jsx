@@ -52,23 +52,23 @@ const landing = () => {
         </div>
       </section>
       <Switcher1 />
-      <section className="flex mt-40 justify-center items-center">
+      <section className="flex lg:mt-40 md:mt-40 mt-10 justify-center items-center">
         <div className="flex flex-col items-center justify-center  ">
           <h1 className="text-2xl md:text-5xl lg:text-7xl text-center lg:leading-loose">
             Bring all the roles
             <span className="bg-LightBlue ml-4">together.</span>
           </h1>
-          <p className=" lg:py-6 text-gray-500 text-xs md:text-sm lg:text-xl text-center">
-            Built your own workspace to replace isolated tools
+          <p className=" lg:py-6 md:py-4 py-2 text-gray-500 text-xs md:text-sm lg:text-xl text-center">
+            We believe in autonomous teams that own their
             <span className="flex items-center justify-center">
-              and bring everyone together.
+              work and their piece of workspace.
             </span>
           </p>
         </div>
       </section>
       <Switcher2 />
       <Switcher1 />
-      <section className="lg:mt-40 flex flex-row  justify-center items-center">
+      <section className="lg:mt-40 flex flex-row  justify-center items-center lg:mr-60 md:mt-10 md:mr-60">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -83,7 +83,7 @@ const landing = () => {
           </g>
         </svg>
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose lg:mt-20 whitespace-nowrap">
+          <h1 className="text-2xl md:text-4xl lg:text-7xl text-center lg:leading-loose lg:mt-20 md:mt-10 mt-8 whitespace-nowrap">
             Loved by so many people
             <span className="flex flex-row">around the world.</span>
           </h1>
@@ -92,16 +92,16 @@ const landing = () => {
       <section className="lg:mt-20">
         <Reviews />
       </section>
-      <section className="flex mt-10 items-center justify-center  lg:mx-20 ">
+      <section className="flex mt-20 items-center justify-center  lg:mx-20 ">
         <div className="grid grid-cols-2 lg:gap-40 md:gap-40 gap-2 ">
           <div className="col-span-1">
-            <div className="grid grid-rows-3 lg:gap-2">
+            <div className="grid grid-rows-3 lg:gap-2 md:gap-2">
               <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
                 <span className="inline-block relative ">
                   <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">10 years</span>
                 </span>
-                <span className="flex lg:text-sm md:text-sm text-xs font-normal lg:mx-32 lg:my-4 mx-6 text-gray-500">
+                <span className="flex lg:text-sm md:text-sm text-xs font-medium lg:mx-32 md:mx-14 lg:my-4 md:my-2 mx-6 text-gray-500">
                   In business
                 </span>
               </div>
@@ -110,25 +110,25 @@ const landing = () => {
                   <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">1,092</span>
                 </span>
-                <span className="flex  lg:text-sm md:text-sm text-xs font-normal lg:mx-12 lg:my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-medium lg:mx-12 md:mx-4 lg:my-4 text-gray-500  md:my-2">
                   Partner Company
                 </span>
               </div>
             </div>
           </div>
           <div className="col-span-1">
-            <div className="grid grid-rows-3 lg:gap-2">
+            <div className="grid grid-rows-3 lg:gap-2 md:gap-2">
               <div className="text-gray-500 lg:mt-10 md:mt-6 mt-6 lg:text-2xl md:text-sm text-xs">
                 Businesses all over the world
                 <span className="flex">trust Oval to Build their own</span>
                 <span className="flex">workflow</span>
               </div>
-              <div className="lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 lg:mx-20  whitespace-nowrap">
+              <div className="lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-2 lg:mx-4  whitespace-nowrap">
                 <span className="inline-block relative">
                   <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">75,000+</span>
                 </span>
-                <span className="flex  lg:text-sm md:text-sm text-xs font-normal mx-12 lg:mx-32 lg:my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-medium mx-12 lg:mx-32 md:mx-20 lg:my-4 text-gray-500  md:my-2">
                   Customers
                 </span>
               </div>
@@ -137,7 +137,7 @@ const landing = () => {
                   <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
                   <span className="relative">39+</span>
                 </span>
-                <span className="flex  lg:text-sm md:text-sm text-xs font-normal mx-2 lg:mx-10 lg:my-4 text-gray-500">
+                <span className="flex  lg:text-sm md:text-sm text-xs font-medium mx-2 lg:mx-10 lg:my-4 text-gray-500  md:my-2">
                   Branch office
                 </span>
               </div>
@@ -146,7 +146,7 @@ const landing = () => {
         </div>
       </section>
       <section className="grid grid-cols-4 flex flex-col justify-center">
-        <div className="col-span-1">
+        <div className="col-span-1 ">
           <Image
             src="/Images/Landing/Utils/1.png"
             alt="LandingUtil1"
@@ -154,15 +154,15 @@ const landing = () => {
             width="196"
           />
         </div>
-        <div className="col-span-3 lg:mt-60 md:mt-80 mt-40 lg:ml-6 ">
+        <div className="col-span-2 lg:mt-60 md:mt-80 mt-40  flex flex-col justify-center items-center">
           <h1 className=" text-2xl md:text-5xl lg:text-7xl lg:leading-loose whitespace-nowrap">
             Ovals Plans and Pricing
           </h1>
-          <p className="lg:mx-60 lg:py-6 md:mx-40 text-gray-500 text-xs md:text-sm lg:text-xl  whitespace-nowrap mx-8">
-            30-day free trial, cancel anytime.
-            <span className="lg:no-flex md:no-flex flex md:ml-2 lg:ml-0 ml-2">
-              No credit card required.
-            </span>
+          <p className="lg:mx-32 lg:py-6 md:mx-40 md:py-4 py-2 text-gray-500 text-xs md:text-sm lg:text-xl  whitespace-nowrap mx-8">
+            30-day free trial, cancel anytime,
+            {/* <span className="lg:no-flex md:no-flex flex md:ml-2 lg:ml-0 ml-2"> */}
+            No credit card required
+            {/* </span> */}
           </p>
         </div>
       </section>

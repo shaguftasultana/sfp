@@ -4,56 +4,46 @@ const Oval = () => {
   return (
     <>
       <footer className="relative h-screen  text-white mt-40 mb-40">
-        <div className="absolute bottom-0 left-0 right-0 pb-10 flex items-end justify-center space-x-4">
-          {/* Planets and Descriptions */}
-          <div className="flex flex-col items-center space-y-2">
-            <Image
-              src="/path/to/your/image.jpg"
-              alt="Planet 1"
-              width={50}
-              height={50}
-              className="rounded-full"
+        <div className="relative w-40 h-20">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <path
+              fill="none"
+              stroke="gray"
+              strokeWidth="2"
+              d="M0 50 Q50 0 100 50"
             />
-            <p>Planet 1 description</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <Image
-              src="/path/to/your/image.jpg"
-              alt="Planet 2"
-              width={50}
-              height={50}
-              className="rounded-full"
+          </svg>
+          <div className="absolute flex justify-between items-center w-40 h-20">
+            <img
+              src="image1.jpg"
+              alt="Image 1"
+              className="w-8 h-8 rounded-full"
+              style={{ transform: "rotate(45deg) translateY(-50%)" }}
             />
-            <p>Planet 2 description</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <Image
-              src="/path/to/your/image.jpg"
-              alt="Planet 3"
-              width={50}
-              height={50}
-              className="rounded-full"
+            <img
+              src="image2.jpg"
+              alt="Image 2"
+              className="w-8 h-8 rounded-full"
+              style={{ transform: "rotate(90deg) translateY(-50%)" }}
             />
-            <p>Planet 3 description</p>
-          </div>
-          <div className="flex flex-col items-center space-y-2">
-            <Image
-              src="/path/to/your/image.jpg"
-              alt="Planet 4"
-              width={50}
-              height={50}
-              className="rounded-full"
+            <img
+              src="image3.jpg"
+              alt="Image 3"
+              className="w-8 h-8 rounded-full"
+              style={{ transform: "rotate(135deg) translateY(-50%)" }}
             />
-            <p>Planet 4 description</p>
+            <img
+              src="image4.jpg"
+              alt="Image 4"
+              className="w-8 h-8 rounded-full"
+              style={{ transform: "rotate(180deg) translateY(-50%)" }}
+            />
           </div>
         </div>
-
-        <div className="absolute bottom-0 left-0 right-0 h-full ">
-          <div className="absolute w-full h-full rounded-full border-t-2 border-gray-500"></div>
-          <div className="absolute w-[75%] h-[75%] top-[12.5%] left-[12.5%] rounded-full border-t-2 border-gray-400"></div>
-          <div className="absolute w-[50%] h-[50%] top-[25%] left-[25%] rounded-full border-t-2 border-gray-300"></div>
-          <div className="absolute w-[25%] h-[25%] top-[37.5%] left-[37.5%] rounded-full border-t-2 border-gray-200"></div>
-        </div>
+        <div className="absolute w-full h-full rounded-full border-t-2 border-gray-500"></div>
+        <div className="absolute w-[75%] h-[75%] top-[12.5%] left-[12.5%] rounded-full border-t-2 border-gray-400"></div>
+        <div className="absolute w-[50%] h-[50%] top-[25%] left-[25%] rounded-full border-t-2 border-gray-300"></div>
+        <div className="absolute w-[25%] h-[25%] top-[37.5%] left-[37.5%] rounded-full border-t-2 border-gray-200"></div>
       </footer>
     </>
   );

@@ -1,4 +1,6 @@
 import Footer from "@/components/Common/Footer";
+import Oval from "@/components/Common/Oval";
+import ProductPage from "@/components/Common/ProductPage";
 import Reviews from "@/components/Common/Reviews";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
@@ -95,7 +97,7 @@ const Product = () => {
           </div>
         </div>
       </section>
-      <section className="flex lg:mt-40 mt-10 ml-12">
+      <section className="flex items-center justify-center lg:mt-40 mt-10 ml-12">
         <div className="grid grid-cols-2 px-40 py-20 gap-1">
           <div className="col-span-1">
             <h1 className="flex flex-col text-7xl ">
@@ -118,195 +120,59 @@ const Product = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="flex flex-wrap justify-center">
-          <div className="w-full lg:w-1/2 px-6">
-            <div className="flex flex-col h-full justify-between">
-              <div className="mb-8">
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-              </div>
-              <div className="mb-8">
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-                <h3 className="text-lg font-bold mt-2">
-                  Dedicated succes manager
-                </h3>
-                <p className="text-gray-500 mt-2">
-                  Your own customer success manager to help onboard
-                  <span className="flex">
-                    large team and create custom workflows.
-                  </span>
-                </p>
-              </div>
-              <div>
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-                <h3 className="text-lg font-bold mt-2">
-                  Dedicated succes manager
-                </h3>
-                <p className="text-gray-500 mt-2">
-                  Your own customer success manager to help onboard
-                  <span className="flex">
-                    large team and create custom workflows.
-                  </span>
-                </p>
-              </div>
+      <section className=" flex items-center justify-center grid grid-cols-12 gap-10">
+        <div className="ml-72 col-span-7 ">
+          <ProductPage />
+        </div>
+        <div className="col-span-5">
+          <Image
+            src="/Images/Product/Utils/1.png"
+            alt="ProductPageUtils1"
+            width="166"
+            height="308"
+            className="ml-80 mt-40"
+          />
+        </div>
+      </section>
+      <section className="flex items-center justify-center  lg:mx-40 ">
+        <div className="grid grid-cols-3  lg:gap-10 md:gap-8 gap-2 ">
+          <div className="col-span-1  mt-40">
+            <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
+              <span className="inline-block relative ">
+                <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
+                <span className="relative">98%</span>
+              </span>
+              <span className="flex lg:text-sm md:text-sm text-xs font-medium lg:mx-8 md:mx-4 lg:my-6 md:my-4 mx-2 text-gray-400">
+                of user saved time
+              </span>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 px-6">
-            <div className="flex flex-col h-full justify-between">
-              <div className="mb-8">
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-                <h3 className="text-lg font-bold mt-2">
-                  Dedicated succes manager
-                </h3>
-                <p className="text-gray-500 mt-2">
-                  Your own customer success manager to help onboard
-                  <span className="flex">
-                    large team and create custom workflows.
-                  </span>
-                </p>
-              </div>
-              <div className="mb-8">
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-                <h3 className="text-lg font-bold mt-2">
-                  Dedicated succes manager
-                </h3>
-                <p className="text-gray-500 mt-2">
-                  Your own customer success manager to help onboard
-                  <span className="flex">
-                    large team and create custom workflows.
-                  </span>
-                </p>
-              </div>
-              <div>
-                <svg
-                  className="w-8 h-8"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-chat"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z"
-                      fill="#a3a09f"
-                    ></path>
-                  </svg>
-                </svg>
-                <h3 className="text-lg font-bold mt-2">
-                  Dedicated succes manager
-                </h3>
-                <p className="text-gray-500 mt-2">
-                  Your own customer success manager to help onboard
-                  <span className="flex">
-                    large team and create custom workflows.
-                  </span>
-                </p>
-              </div>
+          <div className="col-span-1 mt-36">
+            <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
+              <span className="inline-block relative ">
+                <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
+                <span className="relative">26%</span>
+              </span>
+              <span className="flex flex-col lg:text-sm md:text-sm text-xs font-medium lg:mx-10 md:mx-4 lg:my-6 md:my-4 mx-2 text-gray-400">
+                less email send <span className="flex">and recieved</span>
+              </span>
+            </div>
+          </div>
+          <div className="col-span-1 mt-28">
+            <div className=" lg:text-8xl md:text-6xl text-4xl font-medium  lg:mt-16 md:mt-8 mt-8 lg:mx-20  whitespace-nowrap">
+              <span className="inline-block relative ">
+                <span className="bg-LightOrange absolute lg:top-20 top-8 md:top-12 left-0 lg:h-6 h-1 w-full"></span>
+                <span className="relative">32%</span>
+              </span>
+              <span className="flex flex-col lg:text-sm md:text-sm text-xs font-medium lg:mx-8 md:mx-4 lg:my-6 md:my-4 mx-2 text-gray-400">
+                Faster Project <span className="flex"> Completion</span>
+              </span>
             </div>
           </div>
         </div>
       </section>
+      <Oval />
+
       <Footer />
     </>
   );
